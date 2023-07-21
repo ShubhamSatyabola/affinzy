@@ -2528,7 +2528,7 @@ main {
 }
 
 /* Media query for responsiveness */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .logos-container {
       animation: moveLogosMobile 5s linear infinite;
   }
@@ -2542,7 +2542,7 @@ main {
       }
   }
 }
-
+ */
 
 
 
