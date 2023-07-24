@@ -2502,6 +2502,7 @@ main {
   overflow: hidden;
 }
 
+
 .logos-container {
   white-space: nowrap;
   animation: moveLogos 5s linear infinite;
