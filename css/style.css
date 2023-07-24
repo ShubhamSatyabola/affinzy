@@ -609,14 +609,15 @@ a {
   transition-delay: 0.8s;
 }
 .navbar .logo {
-  margin-right: 35px;
+  margin-left: 40px;
 }
 .navbar .logo a {
   float: left;
 }
-.navbar .logo a img {
+/* .navbar .logo a img {
   height: 50px;
-}
+  
+} */
 .navbar .sandwich-nav {
   margin-right: 0;
 }
