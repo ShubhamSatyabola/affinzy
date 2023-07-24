@@ -733,20 +733,19 @@ a {
 .header:before {
   content: "";
   width: 60%;
-  height: 20px;
+  height: 100px;
   background: #f03a37;
   position: absolute;
-  right: 0;
   top: 0;
   z-index: 2;
 }
 .header:after {
   content: "";
   width: 60%;
-  height: 70px;
+  height: 20px;
   background: #f03a37;
   position: absolute;
-  left: 40px;
+  right: 40px;
   bottom: 0;
   z-index: 2;
 }
@@ -2501,7 +2500,6 @@ main {
   padding: 10px; 
   overflow: hidden;
 }
-
 
 .logos-container {
   white-space: nowrap;
