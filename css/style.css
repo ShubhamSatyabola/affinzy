@@ -1510,6 +1510,7 @@ main {
   flex-wrap: wrap;
   padding: 100px 0;
   text-align: center;
+  background-color: #313434;
 }
 .clients * {
   -webkit-transition: 0.25s ease-in-out;
@@ -1522,10 +1523,12 @@ main {
   font-size: 6vw;
   font-weight: 800;
   margin-bottom: 50px;
+  color: #dbe4e4;
 }
 .clients h6 {
   font-family: "Libre Baskerville", serif;
   font-size: 18px;
+  color: #dbe4e4;
 }
 .clients ul {
   width: 100%;
@@ -1565,10 +1568,12 @@ main {
   list-style: none;
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
 }
-.clients ul li:hover figure {
+/* .clients ul li:hover figure {
   opacity: 1;
-}
+} */
 .clients ul li figure {
   width: 100%;
   float: left;
@@ -1576,7 +1581,7 @@ main {
   padding: 15px 30%;
   overflow: hidden;
   position: relative;
-  opacity: 0.4;
+  /* opacity: 0.4; */
 }
 .clients ul li figure img {
   width: 100%;
