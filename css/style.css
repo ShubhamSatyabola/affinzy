@@ -608,7 +608,8 @@ a {
   transition-delay: 0.8s;
 }
 .navbar:hover{
-  background-color: #dbe4e4;
+  background-color: #becccc;
+  opacity: .5;
 }
 .navbar .logo {
   margin-left: 20px;
@@ -619,6 +620,7 @@ a {
 }
 .navbar .logo a img {
   size: absolute;
+  height :80px
   
 }
 .navbar .sandwich-nav {
@@ -2507,54 +2509,7 @@ main {
   }
 }
 
-.client {
-  margin: 0;
-  padding: 10px; 
-  overflow: hidden;
-}
 
-.logos-container {
-  white-space: nowrap;
-  animation: moveLogos 20s linear infinite;
-}
-
-.logo {
-  display: inline-block;
-  margin: 10px;
-  max-width: 100px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.logo:hover {
-  transform: scale(1.2);
-}
-
-@keyframes moveLogos {
-  0% {
-      transform: translateX(100%);
-  }
-  100% {
-      transform: translateX(-100%);
-  }
-}
-
-
-
-/* Media query for responsiveness */
-@media (max-width: 768px) {
-  .logos-container {
-      animation: moveLogosMobile 10s linear infinite;
-  }
-
-  @keyframes moveLogosMobile {
-      0% {
-          transform: translateX(100%);
-      }
-      100% {
-          transform: translateX(-200%);
-      }
-  }
-}
 
 .video-container {
   position: relative;
@@ -2573,9 +2528,9 @@ main {
 }
 .video-text {
   position: absolute;
-  width: 55%;
-  top: 40%;
-  left: 0px;
+  width: 60%;
+  top: 20%;
+  left: 20px;
   padding: 20px;
   color: rgb(254, 250, 250);
   font-size: 24px;
@@ -2589,12 +2544,13 @@ main {
 }
 
 /* Add media queries for responsive layout */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   
   .video-text {
     font-size: 10px;
     line-height: 1.3;
-    top:0%
+    top:0%;
+    left:0
    
     
   }
