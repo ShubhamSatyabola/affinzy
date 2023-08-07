@@ -292,6 +292,39 @@
 			$(window).load(function(){
 				$("body").addClass("page-loaded");	
 			});
+
+			new Swiper('.client-slider', {
+				speed: 200,
+				loop: true,
+				autoplay: {
+				  delay: 1000,
+				  disableOnInteraction: false
+				},
+				slidesPerView: '4',
+				pagination: {
+				  el: '.swiper-pagination',
+				  type: 'bullets',
+				  clickable: true
+				},
+				breakpoints: {
+				  320: {
+					slidesPerView: 2,
+					spaceBetween: 40
+				  },
+				  480: {
+					slidesPerView: 3,
+					spaceBetween: 60
+				  },
+				  640: {
+					slidesPerView: 4,
+					spaceBetween: 80
+				  },
+				  992: {
+					slidesPerView: 6,
+					spaceBetween: 120
+				  }
+				}
+			  });
 	
 	
 })(jQuery);	
