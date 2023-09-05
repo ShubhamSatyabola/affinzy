@@ -537,7 +537,7 @@ a {
   bottom: 90px;
   margin: 0;
   padding: 0;
-  font-family: "Libre Baskerville", serif;
+  font-family: "poppins", serif;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -615,14 +615,14 @@ a {
 }
 .navbar .logo a img {
   size: absolute;
-  height :80px
+  height :50px
 }
 .navbar .sandwich-nav {
   margin-right: 0;
 }
 .navbar .sandwich-nav .sandwich-text {
   float: left;
-  height: 46px;
+  height: 50px;
   overflow: hidden;
 }
 .navbar .sandwich-nav .sandwich-text.move-up b {
@@ -783,7 +783,7 @@ background-image: linear-gradient(315deg, #f6d327 0%, #de4daa 74%);
   z-index: -1;
 }
 .header h2 {
-  font-family: "poppins";
+  font-family: "poppins" , serif;
   font-size: 8vw;
   color: #fff;
   font-weight: 800;
@@ -1109,10 +1109,11 @@ main {
 .page-header .social-media {
   position: absolute;
   left: 140px;
-  bottom: 30px;
+  bottom: 50px;
   margin: 0;
   padding: 0;
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
+  font-family: "poppins", serif;
   z-index: 2;
 }
 .page-header .social-media li {
@@ -1178,7 +1179,8 @@ main {
   font-size: 20px;
   color: #fff;
   display: block;
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
+  font-family: "poppins", serif;
 }
 
 /* WORKS */
@@ -1211,7 +1213,8 @@ main {
   font-weight: 300;
   line-height: 34px;
   margin: 0;
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
+  font-family: "poppins", serif;
 }
 .works .works-grid {
   width: 100%;
@@ -1371,10 +1374,11 @@ main {
 }
 .awards p {
   font-size: 18px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "poppins", serif;
   line-height: 30px;
   color: #8f999a;
   padding-left: 10%;
+  text-align: justify;
 }
 .awards figure {
   width: 100%;
@@ -1437,8 +1441,9 @@ main {
   margin: 0 auto;
 }
 .side-content-block .inner .holder p {
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
   font-size: 23px;
+  font-family: "poppins", serif;
   line-height: 36px;
   margin-bottom: 44px;
 }
@@ -1483,7 +1488,8 @@ main {
   height: 50px;
 }
 .icon-content-block .content-box h4 {
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
+  font-family: "poppins", serif;
   color: #fff;
   margin-bottom: 20px;
   font-size: 18px;
@@ -1629,7 +1635,8 @@ main {
   font-size: 19px;
   line-height: 30px;
   color: #8f999a;
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
+  font-family: "poppins", serif;
   margin: 0;
 }
 
@@ -1686,7 +1693,8 @@ main {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
+  font-family: "poppins", serif;
   color: #8f999a;
 }
 .services-content-block .content-box ul li {
@@ -1782,7 +1790,7 @@ main {
 }
 
 /* BLOG */
-.blog {
+/* .blog {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -1976,7 +1984,7 @@ main {
   -webkit-transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-}
+} */
 
 /* CONTACT */
 .contact {
@@ -2010,7 +2018,8 @@ main {
   font-weight: 800;
 }
 .contact .contact-box p {
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
+  font-family: "poppins", serif;
   line-height: 30px;
   font-size: 18px;
   color: #8f999a;
@@ -2018,7 +2027,8 @@ main {
 }
 .contact .contact-box a {
   display: block;
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
+  font-family: "poppins", serif;
   line-height: 30px;
   font-size: 18px;
   color: #8f999a;
@@ -2540,6 +2550,7 @@ main {
   padding: 20px;
   color: rgb(254, 250, 250);
   font-size: 30px;
+  font-family: "poppins", serif;
   line-height: 2;
   z-index: 1;
   display: grid;
@@ -2633,6 +2644,7 @@ main {
 .deneb_footer .widget_wrapper .widget_link ul li {
   margin-bottom: 5px;
   margin-right: 0px;
+  margin-top: 30px;
 }
 .deneb_footer .widget_wrapper .widget_link ul li a {
   text-transform: capitalize;
@@ -2779,7 +2791,7 @@ main {
 }
 
 .client{
-  overflow: hidden; padding:80px 0;width: 100%
+  overflow: hidden; padding-top:0px;padding-bottom:80px;width: 100%
 }
 
 .client .swiper-pagination {
@@ -2812,6 +2824,303 @@ main {
   filter: none;
   opacity: 1;
   
+}
+
+/*.................. testimonials................ */
+
+.testimonials {
+  width:100%;
+  padding: 80px 0;
+  /* background: url(../myimg/testimonials-bg.jpg) no-repeat; */
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  font-family: "poppins", serif;
+}
+
+.testimonials::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* background: rgba(0, 0, 0, 0.5); */
+}
+
+.testimonials .section-header {
+  margin-bottom: 40px;
+}
+
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
+  overflow: hidden;
+}
+
+.testimonials .testimonial-item {
+  text-align: center;
+  color: #fff;
+}
+.testimonials .container{
+  border: 5px solid black;
+  border-radius: 30px;
+}
+/* .testimonials .testimonial-item .testimonial-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+} */
+
+.testimonials .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color:black;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color:black;
+  margin: 0 0 15px 0;
+}
+
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
+  color: black;
+  font-size: 26px;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: black;
+}
+
+.testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ff5821;
+}
+
+@media (min-width: 992px) {
+  .testimonials .testimonial-item p {
+    width: 80%;
+  }
+}
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio{
+  padding:100px;
+  background-color: #fff9f7;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  color:black;
+}
+.section-title p {
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.portfolio #portfolio-flters {
+  padding: 100px;
+  margin: 200px auto 35px auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #313030;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50px;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: #ff5821;
+  background: #fff1ed;
+}
+
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio .portfolio-item .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+}
+
+.portfolio .portfolio-item .portfolio-info h4 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  color: #473d3a;
+}
+
+.portfolio .portfolio-item .portfolio-info p {
+  color: #7f6d68;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
+  position: absolute;
+  right: 40px;
+  font-size: 24px;
+  top: calc(50% - 18px);
+  color: #635551;
+}
+
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
+  color: #ff5821;
+}
+
+.portfolio .portfolio-item .portfolio-info .details-link {
+  right: 10px;
+}
+
+.portfolio .portfolio-item .portfolio-links {
+  opacity: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 3;
+  position: absolute;
+  transition: all ease-in-out 0.3s;
+}
+
+.portfolio .portfolio-item .portfolio-links a {
+  color: #fff;
+  margin: 0 2px;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-item .portfolio-links a:hover {
+  color: #ffa587;
+}
+
+.portfolio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+  bottom: 20px;
+}
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 20px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #ff5821;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ff5821;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(71, 61, 58, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li+li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
 }
 
 
