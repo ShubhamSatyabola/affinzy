@@ -1188,7 +1188,7 @@ main {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 100px 40px;
+  padding: 50px 40px;
   padding-bottom: 20px;
   position: relative;
   z-index: 2;
@@ -1199,7 +1199,7 @@ main {
   flex-wrap: wrap;
   flex-direction: column;
   padding: 0;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 .works .works-title h2 {
   font-size: 6vw;
@@ -1285,8 +1285,8 @@ main {
   width: 100%;
   display: block;
   margin-bottom: 10px;
-  color: #8f999a;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+  color: #313434;
   font-size: 13px;
 }
 .works .works-grid li figure figcaption h3 {
@@ -1523,7 +1523,7 @@ main {
   flex-wrap: wrap;
   padding: 100px 0;
   text-align: center;
-  background-color: #313434;
+  /* background-color: #313434; */
 }
 .clients * {
   -webkit-transition: 0.25s ease-in-out;
@@ -1536,12 +1536,12 @@ main {
   font-size: 6vw;
   font-weight: 800;
   margin-bottom: 50px;
-  color: #dbe4e4;
+  color:black;
 }
 .clients h6 {
   font-family: "Libre Baskerville", serif;
   font-size: 18px;
-  color: #dbe4e4;
+  color:black;
 }
 .clients ul {
   width: 100%;
@@ -2299,6 +2299,10 @@ main {
   .footer .container .content-box:nth-child(3) {
     text-align: left;
   }
+  .deneb_footer .widget_wrapper .widget_link .footer-list{
+    padding: 0px 0px 0px 10vww;
+    /* align-items: center; */
+  }
 }
 /* RESPONSIVE MOBILE FIXES */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
@@ -2524,8 +2528,6 @@ main {
   }
 }
 
-
-
 .video-container {
   position: relative;
   width: 100%;
@@ -2576,17 +2578,19 @@ main {
   }
 }
 .deneb_footer{
-  width: 100vw;
+  width: 100%;
   text-align: center; 
-  
 }
 .deneb_footer .widget_wrapper {
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding:50px 20px 20px 20px;
   overflow: hidden;
 }
+/* .deneb_footer .widget_wrapper .container{
+  width:100%;
+  padding:50px 20px 20px 20px;
+} */
 @media (max-width: 767px) {
   .deneb_footer .widget_wrapper .widget {
       margin-bottom: 40px;
@@ -2594,6 +2598,9 @@ main {
 }
 .deneb_footer .widget_wrapper .widget .widget_title {
   margin-bottom: 30px;
+}
+.deneb_footer .widget_wrapper .widget .widget_title img {
+  margin-top: 50px;
 }
 .deneb_footer .widget_wrapper .widget .widget_title h4 {
   font-weight: bold;
@@ -2612,19 +2619,22 @@ main {
   font-weight: bold;
   padding-bottom:20px;
 }
+.deneb_footer .widget_wrapper .widegt_about .social{
+  padding: 0px 0px 0px 0px;
+}
+
 .deneb_footer .widget_wrapper .widegt_about .social li {
   display: inline-block;
   align-items: center;
 }
 .deneb_footer .widget_wrapper .widegt_about .social li a {
   display: block;
-  
   width: 40px;
   height: 30px;
-  line-height: 30px;
+  line-height: 50px;
   text-align: center;
   border-radius: 50%;
-  background-color: #fbfbfb;
+  /* background-color: #fbfbfb; */
   color:black;
   font-size: 30px;
   -webkit-transition: all all 0.5s ease-out 0s;
@@ -2641,35 +2651,41 @@ main {
   color: #fff;
   box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
 }
+.deneb_footer .widget_wrapper .widget_link .footer-list{
+  padding: 0px 0px 0px 0px;
+  /* align-items: center; */
+}
 .deneb_footer .widget_wrapper .widget_link ul li {
   margin-bottom: 5px;
   margin-right: 0px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .deneb_footer .widget_wrapper .widget_link ul li a {
   text-transform: capitalize;
   color: #060608;
-  padding:15px
-
-
+  padding:5px
 }
 .deneb_footer .widget_wrapper .widget_link ul li a:hover,
 .deneb_footer .widget_wrapper .widget_link ul li a:focus {
   color: #feb000;
 }
+.deneb_footer .widget_wrapper .widget_contact{
+  padding: 0px 0px 0px 0px;
+}
 .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info {
   max-width: 400px;
-   display: flex;
+  display: flex;
   flex-wrap: wrap;  
   margin-bottom: 20px;
+  
 }
 
 .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .icon {
   font-size: 16px;
   color: #0d0d0d;
   margin-right: 0px;
-  padding-left:3vw;
-  align-items: center
+  padding-left:2vw;
+  /* align-items: center */
 }
 .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a {
   color: #050506;
@@ -2685,6 +2701,10 @@ main {
   .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a {
     color: #050506;
     padding-left: 12vw;
+  }
+  .deneb_footer .widget_wrapper .widget_link .footer-list{
+    padding: 0px 0px 0px 8vw;
+    /* align-items: center; */
   }
 }
 .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .info p span {
@@ -2791,7 +2811,7 @@ main {
 }
 
 .client{
-  overflow: hidden; padding-top:0px;padding-bottom:80px;width: 100%
+  overflow: hidden; padding-top:0px;padding-bottom:20px;width: 100%
 }
 
 .client .swiper-pagination {
@@ -2830,7 +2850,8 @@ main {
 
 .testimonials {
   width:100%;
-  padding: 80px 0;
+  padding: 20px 0px;
+  padding-bottom: 80px;
   /* background: url(../myimg/testimonials-bg.jpg) no-repeat; */
   background-position: center center;
   background-size: cover;
